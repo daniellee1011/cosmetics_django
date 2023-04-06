@@ -1,0 +1,18 @@
+repo_A is the original repository and repo_B is new repository.
+
+1.
+git clone https://github.com/user/repo_A.git
+
+2.
+cd repo_A
+
+3.
+git remote set-url origin https://github.com/user/repo_B.git
+
+4.
+git remote -v
+: Verify the remote URL is updated correctly:
+
+5.
+git push -u origin master
+:Push the contents of the original repository (A) to the new repository (B):
